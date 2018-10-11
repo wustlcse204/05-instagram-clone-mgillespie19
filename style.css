@@ -16,6 +16,10 @@ body {
   padding-top: 24px;
 }
 
+#add_comment {
+  color: rgb(165,165,165);
+}
+
 #search_text {
   text-align: center;
   background-color: rgb(250,250,250);
