@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <nav class="navbar-light bg-white">
+        <nav id="navbar" class="navbar-light bg-white">
             <div class="d-flex justify-content-around">
                 <li class="navbar-brand">
                     <a href="index.html" class="navbar-brand">
@@ -36,19 +36,38 @@
             </div>
         </nav>
 
-
         <div id="stories" class="nav flex-column nav-pills" style="width: 33%;">
-            <div id="my_story">
-                <div class="card d-flex justify-content-around"> max_gillespie </div>
-            </div>
             <ul id="friend_stories">
-                <li class="nav-link d-flex justify-content-around"> < alexdethero > </li>
-                <li class="nav-link d-flex justify-content-around"> < vandancpatel > </li>
-                <li class="nav-link d-flex justify-content-around"> < gabgiotto > </li>
-                <li class="nav-link d-flex justify-content-around"> < magicjarvis > </li>
-                <li class="nav-link d-flex justify-content-around"> < hannah_babs > </li>
-                <li class="nav-link d-flex justify-content-around"> < boostedboards > </li>
-                <li class="nav-link d-flex justify-content-around"> < 20_in_2018 > </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="me.png" style="height: 70px;">
+                </li>
+                <hr>
+
+                <nav class="navbar-light">
+                    <div id="story_actions" class="d-flex justify-content-between">
+                        <li class="nav-link" style="color:rgb(140,140,140);"> <b>Stories</b> </li>
+                        <li class="nav-link"> <b>Watch All</b> </li>
+                    </div>
+                </nav>
+
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="boosted.png" style="height: 70px;">
+                </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="lili.png" style="height: 70px;">
+                </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="jarvis.png" style="height: 70px;">
+                </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="20in2018.png" style="height: 70px;">
+                </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="jaydeep.png" style="height: 70px;">
+                </li>
+                <li class="nav-link d-flex justify-content-start">
+                    <img src="vv.png" style="height: 70px;">
+                </li>
             </ul>
         </div>
 
@@ -72,15 +91,18 @@
                 </nav>
                 <nav id="likes" class="navbar-light bg-white">
                     <div class="d-flex justify-content-start">
-                        < likes >
+                        <b> 176 likes </b>
                     </div>
                 </nav>
                 <div id="caption">
-                   < caption >
+                   <b> mlkem_34 </b> Sweet car i saw
                 </div>
                 <div id="comments">
-                    < whoa nice post > <br>
-                    < another comment >
+                    <b> max_gillespie </b> whoa nice post <br>
+                    <b> alexdethero </b> ill second that <br>
+                </div>
+                <div id="timestamp">
+                    2 HOURS AGO
                 </div>
                 <nav id="add_comment" class="navbar-light bg-white">
                     <hr>
@@ -94,10 +116,45 @@
 
         <div id="recommended">
             <nav class="card bg-white">
+                <img id="arrow" src="seeMore.svg">
+                <nav class="navbar-light bg-white d-flex justify-content-between">
+                    <li id="rec_text" class="nav-link"> Suggestions For You </li>
+                    <li id="rec_text" class="nav-link" style="color:rgb(40, 135, 235);"> See All </li>
+                </nav>
                 <div id="recommended_accounts" class="d-flex justify-content-around">
-                    <li class="card bg-white"> Casey Neistat </li>
-                    <li class="card bg-white"> Pittsburgh Penguins </li>
-                    <li class="card bg-white"> Peter McKinnon </li>
+                    <li id="rec_card" class="card bg-white">
+                        <img id="rec_profile" src="josh.png">
+
+                        <div> <b> Josh Sundquist </b> </div>
+
+                        <div> Followed by alexdethero </div>
+
+                        <div id="follow" class="card">
+                            Follow
+                        </div>
+                    </li>
+                    <li id="rec_card" class="card bg-white">
+                        <img id="rec_profile" src="taiLopez.png">
+
+                        <div> <b> Tai Lopez </b> </div>
+
+                        <div> Popular </div>
+
+                        <div id="follow" class="card">
+                            Follow
+                        </div>
+                    </li>
+                    <li id="rec_card" class="card bg-white">
+                        <img id="rec_profile" src="bentley.png">
+
+                        <div> <b> Bentley Motors </b> </div>
+
+                        <div> Popular </div>
+
+                        <div id="follow" class="card">
+                            Follow
+                        </div>
+                    </li>
                 </div>
             </nav>
         </div>
@@ -122,15 +179,18 @@
               </nav>
               <nav id="likes" class="navbar-light bg-white">
                   <div class="d-flex justify-content-start">
-                      < likes >
+                      <b> 318,762 likes </b>
                   </div>
               </nav>
               <div id="caption">
-                 < caption >
+                  <b> postmalone </b> 2019 euro tour soon
               </div>
               <div id="comments">
-                  < whoa nice post > <br>
-                  < another comment >
+                  <b> max_gillespie </b> i like ur music <br>
+                  <b> alexdethero </b> ill second that
+              </div>
+              <div id="timestamp">
+                  37 MINUTES AGO
               </div>
               <nav id="add_comment" class="navbar-light bg-white">
                   <hr>
